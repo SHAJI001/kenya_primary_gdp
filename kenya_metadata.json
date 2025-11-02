@@ -1,0 +1,27 @@
+{
+    "dataset_name": "Kenya_Primary_Education_GDP_2001_2020",
+    "description": "This dataset merges Kenya's primary education enrollment data (2001\u20132020) with GDP per capita data from the World Bank and UNESCO. It allows analysis of the relationship between economic growth and education access.",
+    "columns": {
+        "Country": {
+            "type": "string",
+            "description": "Name of the country (Kenya)"
+        },
+        "Year": {
+            "type": "integer",
+            "description": "Observation year from 2001 to 2020"
+        },
+        "PrimaryEnrollment": {
+            "type": "float",
+            "description": "Number of students enrolled in primary education (both genders)"
+        },
+        "GDP_per_capita": {
+            "type": "float",
+            "description": "Gross Domestic Product per person, in current U.S. dollars"
+        }
+    },
+    "source_links": {
+        "UNESCO": "https://data.un.org/",
+        "World Bank": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD"
+    },
+    "last_updated": "2025-11-02"
+}
